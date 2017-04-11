@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MeetingModelStoreContainer" CdmEntityContainer="MeetingEntities">
+    <EntitySetMapping Name="Meetings">
+      <EntityTypeMapping TypeName="MeetingModel.Meetings">
+        <MappingFragment StoreEntitySet="Meetings">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MeetingTopic" ColumnName="MeetingTopic" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="MeetingStartTime" ColumnName="MeetingStartTime" />
+          <ScalarProperty Name="MeetingFinishTime" ColumnName="MeetingFinishTime" />
+          <ScalarProperty Name="Participants" ColumnName="Participants" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
